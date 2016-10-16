@@ -5,7 +5,7 @@ set -o nounset
 set -o pipefail
 
 source ${CONTAINER_SCRIPTS_PATH}/common.sh
-source ${CONTAINER_SCRIPTS_PATH}/setup_rhmap.sh
+source ${CONTAINER_SCRIPTS_PATH}/setup_dbs.sh
 
 current_endpoints=$(endpoints)
 if [ -n "${MONGODB_INITIAL_REPLICA_COUNT:-}" ]; then
