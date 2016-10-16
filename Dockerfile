@@ -15,7 +15,7 @@ ENV MONGODB_VERSION=3.2 \
     HOME=/var/lib/mongodb
 
 LABEL microlib.description="MongoDB is a scalable, high-performance, open source NoSQL database." \
-          microlib.display-name="MongoDB 3.2" \
+      microlib.display-name="MongoDB 3.2" 
 
 EXPOSE 27017
 
